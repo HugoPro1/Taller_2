@@ -100,6 +100,67 @@ section{
     background-color:orange;
     border-radius: 50%
 }
+force{
+    margin:10px 0 10px 10px;
+    width: 180px;
+    height: 180px;
+    display: inline-block;    
+    background-color:red;
+    border-radius: 50%;
+
+}
+casa{
+    width: 700px;
+    height: 500px;
+    display: block;
+    margin: 30px auto;
+    background-color: brown;
+}
+casa>nav>article{
+    width: 340px;
+    height: 340px;
+    display: inline-block;
+    margin: 90px auto;
+    background-color:blue;
+    border-radius: 50%;
+}
+section>nav{
+    width: 180px;
+    height: 280px;
+    background-color: yellow;
+    display: inline-block;
+    margin: 100px 10px 0px 30px;
+}
+section>nav>article{
+    width: 120px;
+    height: 200px;
+    background-color: white;
+    display: block;
+    margin: 40px auto;
+    border-radius: 70%;
+}
+
+section>nav:last-child{
+    width: 230px;
+    height: 230px;
+    background-color: yellow;
+    display: inline-block;
+   
+}
+section>nav>circulo{
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 70%;
+    margin: 10px 10px 10px 10px;
+}
+
+
+
+
+
+
 
 
 
